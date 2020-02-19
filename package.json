@@ -1,0 +1,24 @@
+{
+  "name": "taka-amount-to-word-js",
+  "version": "1.0.0",
+  "description": "Simple library to convert amount to Bangla taka",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test:unit": "mocha -R spec \"src/**/*.SpecUnit.js\" --colors",
+    "test:unit:watch": "npm run test:unit -- --watch"
+  },
+  "author": "FazalRasel<fazalrasel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/mocha": "^7.0.1",
+    "expect": "^24.9.0",
+    "mocha": "7.0.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "@babel/core": "^7.8.4",
+    "babel-loader": "^8.0.6"
+  }
+}
