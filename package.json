@@ -1,6 +1,6 @@
 {
   "name": "taka-amount-to-word-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple library to convert amount to Bangla taka",
   "main": "dist/index.js",
   "scripts": {
@@ -10,6 +10,21 @@
   },
   "author": "FazalRasel<fazalrasel@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fazalrasel/taka-amount-to-word-js.git"
+  },
+  "keywords": [
+    "taka",
+    "amount to word",
+    "number to word",
+    "bangla number",
+    "bangla amount"
+  ],
+  "bugs": {
+    "url": "https://github.com/fazalrasel/taka-amount-to-word-js/issues"
+  },
+  "homepage": "https://github.com/fazalrasel/taka-amount-to-word-js#readme",
   "dependencies": {
   },
   "devDependencies": {
